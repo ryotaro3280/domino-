@@ -12,7 +12,7 @@ public class soul2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey ("up")) {
-			transform.position += transform.up * 0.24f;
+			transform.position += transform.up * 0.26f;
 		}
 		if (Input.GetKey ("right")) {
 			transform.position += transform.right * 0.1f;
