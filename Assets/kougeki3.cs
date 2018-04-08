@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class kougeki1 : MonoBehaviour {
+public class kougeki3 : MonoBehaviour {
 
 	// Use this for initialization
 
@@ -14,7 +14,8 @@ public class kougeki1 : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3(initialPosition.x, initialPosition.y, Mathf.Sin(Time.time) * 20.0f + initialPosition.z);//
+		transform.position = new Vector3(initialPosition.x, initialPosition.y, Mathf.Sin(Time.time) * -20.0f + initialPosition.z);//
 		//transform.position += transform.up * -0.15f;
 	}
 }
+
