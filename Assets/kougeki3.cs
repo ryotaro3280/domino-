@@ -14,7 +14,7 @@ public class kougeki3 : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3(initialPosition.x, initialPosition.y, Mathf.Sin(Time.time) * -20.0f + initialPosition.z);//
+		transform.position = new Vector3(initialPosition.x, initialPosition.y, Mathf.Sin(Time.time) * -15.0f + initialPosition.z);//
 		//transform.position += transform.up * -0.15f;
 	}
 }
