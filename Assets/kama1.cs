@@ -11,6 +11,6 @@ public class kama1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate(10f,0f,0f);	
+		transform.Rotate(2f,0f,0f);	
 	}
 }
