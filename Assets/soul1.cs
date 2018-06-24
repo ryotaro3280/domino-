@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class soul1 : MonoBehaviour {
+	public GameObject GameOverText;
 	int hp;
+
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +33,8 @@ public class soul1 : MonoBehaviour {
 			Debug.Log ("ok");
 			hp = hp - 6;
 			Debug.Log (hp);
+
+			GameOverText.GetComponent<Text> ().enabled = true;
 		}
 	}
 }
