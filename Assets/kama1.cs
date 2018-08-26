@@ -4,21 +4,40 @@ using UnityEngine;
 
 public class kama1 : MonoBehaviour {
 
-	void Start () {
-	}
 	float minAngle = 0.0F;
 	float maxAngle = 180.0F;
-	// Update is called once per frame
-			void Update() {
+	float TimeCount = 5;
+
+	void Start () {
+		junbi ();
+	}
+
+	void junbi() {
 		float angle = Mathf.LerpAngle (minAngle, maxAngle, Time.time);
 		transform.eulerAngles = new Vector3 (angle, 0, 0);
-		kiru1 ();
 	}
-		void kiru1() {
-		Debug.Log (1);
+
+	void Update() {
+		TimeCount -= Time.deltaTime;
+
+		if (TimeCount <= 0) {
+			Debug.Log ("実行されてるよ");
+			kiru ();
+			TimeCount = 4;
+		}
+	}
+
+	void kiru() {
 		float minAngle = 180.0F;
 		float maxAngle = 360.0F;
 		float angle = Mathf.LerpAngle (minAngle, maxAngle, Time.time);
 		transform.eulerAngles = new Vector3 (angle,0,0);
-		}
+	}
+
+
+
+
+
+
+
 }
