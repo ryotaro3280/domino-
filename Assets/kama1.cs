@@ -7,6 +7,7 @@ public class kama1 : MonoBehaviour {
 	float minAngle = 0.0F;
 	float maxAngle = 180.0F;
 	float TimeCount = 5;
+	float t = 0.0f;
 
 	void Start () {
 		junbi ();
@@ -19,19 +20,23 @@ public class kama1 : MonoBehaviour {
 
 	void Update() {
 		TimeCount -= Time.deltaTime;
+		Debug.Log (t);
+		t += 0.5f * Time.deltaTime;
 
 		if (TimeCount <= 0) {
 			Debug.Log ("実行されてるよ");
-			kiru ();
 			TimeCount = 4;
+			t = 0.0f;
+
 		}
+		kiru ();
 	}
 
 	void kiru() {
-		float minAngle = 180.0F;
-		float maxAngle = 360.0F;
-		float angle = Mathf.LerpAngle (minAngle, maxAngle, Time.time);
-		transform.eulerAngles = new Vector3 (angle,0,0);
+		float minAngle = 0.0F;
+		float maxAngle = 180.0F;
+		float angle = Mathf.LerpAngle (minAngle, maxAngle, t);
+		transform.eulerAngles = new Vector3 (angle, 0, 0);
 	}
 
 
