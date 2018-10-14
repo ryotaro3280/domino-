@@ -20,7 +20,6 @@ public class kama2 : MonoBehaviour {
 			t += 0.5f * Time.deltaTime;
 
 			if (TimeCount <= 0) {
-				Debug.Log ("実行されてるよ");
 				TimeCount = 4;
 				t = 0.0f;
 

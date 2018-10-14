@@ -8,9 +8,11 @@ public class kama1 : MonoBehaviour {
 	float maxAngle = 180.0F;
 	float TimeCount = 5;
 	float t = 0.0f;
+	float a = 0f;
 
 	void Start () {
-		junbi ();
+		Invoke ("junbi", 3f);
+		Invoke ("Update", 3f);
 	}
 
 	void junbi() {
@@ -19,17 +21,19 @@ public class kama1 : MonoBehaviour {
 	}
 
 	void Update() {
-		TimeCount -= Time.deltaTime;
-		Debug.Log (t);
-		t += 0.5f * Time.deltaTime;
+		a += 1;
+		if (a > 60) {
+			TimeCount -= Time.deltaTime;
+			Debug.Log (t);
+			t += 0.5f * Time.deltaTime;
 
-		if (TimeCount <= 0) {
-			Debug.Log ("実行されてるよ");
-			TimeCount = 4;
-			t = 0.0f;
+			if (TimeCount <= 0) {
+				TimeCount = 4;
+				t = 0.0f;
 
+			}
+			kiru ();
 		}
-		kiru ();
 	}
 
 	void kiru() {
