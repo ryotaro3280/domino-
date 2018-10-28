@@ -15,8 +15,7 @@ public class kama2 : MonoBehaviour {
 	}
 	// Update is called once per frame
 		void Update() {
-			TimeCount -= Time.deltaTime;
-			Debug.Log (t);
+		TimeCount -= Time.deltaTime;
 			t += 0.5f * Time.deltaTime;
 
 			if (TimeCount <= 0) {

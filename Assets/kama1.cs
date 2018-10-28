@@ -24,7 +24,6 @@ public class kama1 : MonoBehaviour {
 		a += 1;
 		if (a > 60) {
 			TimeCount -= Time.deltaTime;
-			Debug.Log (t);
 			t += 0.5f * Time.deltaTime;
 
 			if (TimeCount <= 0) {

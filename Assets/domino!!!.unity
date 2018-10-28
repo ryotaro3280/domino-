@@ -778,7 +778,7 @@ Transform:
   m_LocalScale: {x: 1.5658917, y: 1, z: 27.071445}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 90.951004}
 --- !u!1001 &271662326
 Prefab:
@@ -893,6 +893,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64fe77c528ec2466f9fce8ed027e611b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  rigid: {fileID: 0}
   GameOverText: {fileID: 70590790}
 --- !u!65 &271662329
 BoxCollider:
@@ -4478,7 +4480,7 @@ Transform:
   m_LocalScale: {x: 1.5658917, y: 1, z: 27.071445}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 90.951004}
 --- !u!1001 &1797894551
 Prefab:
@@ -4997,7 +4999,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_LocalScale.z
