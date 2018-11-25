@@ -468,7 +468,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_LocalScale.z
@@ -789,7 +789,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -85.14
+      value: -85.23
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalPosition.y
@@ -797,7 +797,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 63.2
+      value: 64.02
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalRotation.x
@@ -833,7 +833,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_Name
-      value: Red_soul
+      value: Redsoul
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -853,7 +853,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.9
+      value: -5.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalScale.z
@@ -861,7 +861,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalScale.x
@@ -2253,7 +2253,7 @@ Transform:
   m_LocalScale: {x: 50, y: 1, z: 58.489407}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 90.951004}
 --- !u!1 &1113995764
 GameObject:
@@ -2835,7 +2835,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_Name
-      value: Blue_soul
+      value: Bluesoul
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 49d4f1e26cba94f9ab8374700193ba82, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -3264,8 +3264,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1351109489}
   m_LocalRotation: {x: 0.49583176, y: -0.5041339, z: 0.5041338, w: 0.4958317}
-  m_LocalPosition: {x: -84.2, y: 15.5, z: 62.8}
-  m_LocalScale: {x: 50, y: 1, z: 58.489407}
+  m_LocalPosition: {x: -84.2, y: 15.499998, z: 62.8}
+  m_LocalScale: {x: 50.018425, y: 1.0003684, z: 58.48941}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
@@ -3658,7 +3658,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_LocalScale.z
@@ -4999,7 +4999,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e9e644db554d72bfd463a43fe67b7, type: 3}
       propertyPath: m_LocalScale.z
