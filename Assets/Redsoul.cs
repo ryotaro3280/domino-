@@ -16,12 +16,13 @@ public class Redsoul : MonoBehaviour {
 	void Start () {
 		rigid = GameObject.Find("Redsoul").GetComponent<Rigidbody>();
 		hp = 20;
-		//Debug.Log (rigid);
 	}
 	// Update is called once per frame
 	void Update () {
+		if (hp < 1) {
+			GameOverText.GetComponent<Text> ().enabled = true;
+		}
 		speed = rigid.velocity.magnitude;
-		Debug.Log (speed);
 		if (Input.GetKey ("up")) {
 			transform.position += transform.up * 0.2f;
 		}
@@ -37,12 +38,18 @@ public class Redsoul : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider tag){
-		//if(speed > 0
-			if (tag.gameObject.tag == "damage") {
-				hp = hp - 6;
-				Debug.Log (hp);
-
-				GameOverText.GetComponent<Text> ().enabled = true;
-			}
+		if ((tag.gameObject.tag == "Bluedamage") && (speed > 0f)) {
+			hp = hp - 6;
 		}
+		if ((tag.gameObject.tag == "Bluedamage") && (speed == 0f)) {
+			hp = hp - 0;
+		}
+		if ((tag.gameObject.tag == "Orangedamage") && (speed == 0f)) {
+			hp = hp - 6;
+		}
+		if ((tag.gameObject.tag == "Orangedamage") && (speed > 0f)) {
+			hp = hp - 0;
+		}
+		Debug.Log (hp);
+	}
 }
