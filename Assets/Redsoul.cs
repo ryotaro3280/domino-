@@ -22,6 +22,7 @@ public class Redsoul : MonoBehaviour {
 		if (hp < 1) {
 			GameOverText.GetComponent<Text> ().enabled = true;
 		}
+		Debug.Log (hp);
 		speed = rigid.velocity.magnitude;
 		if (Input.GetKey ("up")) {
 			transform.position += transform.up * 0.2f;
@@ -50,6 +51,5 @@ public class Redsoul : MonoBehaviour {
 		if ((tag.gameObject.tag == "Orangedamage") && (speed > 0f)) {
 			hp = hp - 0;
 		}
-		Debug.Log (hp);
 	}
 }
