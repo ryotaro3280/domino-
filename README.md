@@ -1,6 +1,6 @@
 # Wondertale
 
-Unityで作るドミノゲーム。
+Unityで作ったゲーム
 
 ## 避けゲー
 
